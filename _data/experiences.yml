@@ -1,0 +1,66 @@
+- what: "Car*Base (Volkswagen Group)" 
+  when: 2015
+  employer: Polymont IT Services
+  job: Scrum Master 
+  project-description: Développement d'une application de gestion de SAV. 
+  mission-description: Mise en place de la méthode Scrum, Mise en place d'une architecture n-tiers et de service. 
+  products: 
+  - AngularJS
+  - Jersey
+  - Spring Data
+  - Hibernate
+  - Oracle Database
+  icon: glyphicon-briefcase
+- what: "Archimède (Orange)"
+  when: "2013 - 2015"
+  employer: Polymont IT Services
+  job: "Chef de projet technique"
+  project-description: "Maintenance évolutive de l'infrastructure de sécurisation d'accès aux applications web d'Orange (France et Groupe)."
+  mission-description: "Gestion de l'équipe de 4 personnes, mise en place de l'intégration continue, planification, chiffrage, propositions techniques, développement Java"
+  products: 
+  - CA Siteminder
+  - Java JEE
+  - RedHat Enterprise Linux
+  - Spring Framework
+  icon: glyphicon-lock
+- what: Chooser (Orange)
+  when: "2014 - 2015"
+  employer: Polymont IT Services
+  job: Architecte / Chef de projet 
+  project-description: Refonte d'une application de gestion d'accès régionalisé 
+  mission-description: Mise en place d'une architecture n-tiers, conception, développement, gestion de projet 
+  products: 
+  - Spring Web MVC
+  - Spring Data JPA
+  - Bootstrap / HTML5
+  - Apache CXF
+  icon: glyphicon-earphone
+- what: CLS View (CLS)
+  link: https://play.google.com/store/apps/details?id=fr.cls.mobility.myclsdroiddata&hl=fr_FR
+  when: "2013"
+  employer: Polymont IT Services
+  job: Architecte / Développeur
+  project-description: Application de cartographie pour tablettes Android 
+  mission-description: Architecture et développement, mise en place de concepts MVVM pour Android. 
+  products: 
+  - Android SDK
+  - Java
+  icon: glyphicon-globe
+- what: TIF (ENAC)
+  when: "2012"
+  employer: Polymont IT Services
+  job: Ingénieur .NET
+  project-description: Application de création, de gestion et de passation de tests psychotechniques de futurs pilotes 
+  mission-description: Architecture, développement, tests 
+  products: 
+  - .Net WPF
+  - .Net Forms
+- when: "2005 - 2012"
+  employer: Anagram Audiovisuel
+  job: Chef de projet technique
+  project-description: Muséographie, Multimédia et Audiovisuel 
+  mission-description: Gestion de projets technique, conception et développement multimédia (bornes interactives, tables multitouch, dispositifs interactifs multi-écran, outils e-learning), cadreur pour Airbus Training (Hamburg) 
+  products: 
+  - C#
+  - PHP5
+  - ActionScript

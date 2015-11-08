@@ -1,0 +1,42 @@
+fonctions:
+  - Scrum Master certifié
+  - Gestion d'équipe
+  - Architecte / développeur
+techniques:
+  - type: Langages
+    items:
+      - Java
+      - Javascript
+      - Ruby
+      - .Net C#
+      - PHP5
+      - HTML5
+  - type: Frameworks
+    items:
+      - AngularJS
+      - Spring (Core, Web MVC, Data JPA)
+      - Hibernate
+      - CA Siteminder
+      - Android SDK
+      - Bootstrap
+  - type: Système
+    items: 
+    - Linux (RHEL)
+    - Windows
+    - MySQL
+    - Oracle DB
+  - type: Outils
+    items: 
+    - Jenkins
+    - Sonarqube
+    - Maven
+    - Git
+    - SVN
+    - Grunt
+    - Bower
+    - Eclipse
+    - Visual Studio
+    - Netbeans
+    - Brackets
+    - Vagrant
+    - Asciidoctor
