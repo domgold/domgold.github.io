@@ -1,0 +1,32 @@
+<ul class="timeline">
+  {% for item in include.items %}
+    <li>
+      <div class="timeline-badge {{ include.color }}">
+        <i class="glyphicon {% if item.icon %}{{ item.icon}} {% else %} {{ include.icon}}{% endif %}"></i>
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">{{item.title}}</h4>
+        </div>
+        <div class="timeline-body">
+          <p>
+            {% if item.subtitle %}
+              <strong>
+                <i class="glyphicon {{ include.subtitle_icon }}"></i>&nbsp;{{item.subtitle}}&nbsp;
+              </strong>
+            {% endif %}
+            {% if item.date %}
+            <small class="text-muted"><i class="glyphicon glyphicon-time"></i> {{item.date}}</small>
+            {% endif %}
+            {% if item.location %}
+            <small class="text-muted right"><i class="glyphicon glyphicon-map-marker"></i> {{item.location}}</small>
+            {% endif %}
+          </p>
+        {% if include.body_include %}
+            {% include {{ include.body_include }} item=item %}
+        {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

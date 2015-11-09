@@ -1,20 +1,20 @@
-- when: 2015
-  what: Certification ScrumMaster 
-  where: Xebia
-  icon: glyphicon-user
-- when: 2014
-  what: Spring Framework
-  where: Novia School - Toulouse
+- date: 2015
+  title: Certification ScrumMaster 
+  location: Xebia
+  icon: glyphicon-education
+- date: 2014
+  title: Spring Framework
+  location: Novia School - Toulouse
   icon: glyphicon-cog
-- when: 2013
-  what: Gestion des conflits
-  where: Novia School - Toulouse
+- date: 2013
+  title: Gestion des conflits
+  location: Novia School - Toulouse
   icon: glyphicon-user
-- when: 2012
-  what: Développement Java/JEE
-  where: CRP Consulting
+- date: 2012
+  title: Développement Java/JEE
+  location: CRP Consulting
   icon: glyphicon-cog
-- when: 2005
-  what: Ingénieur des média audiovisuels
-  where: Stuttgart Media University (Allemagne) Niveau 1
-  icon: glyphicon-book
+- date: 2005
+  title: Ingénieur des média audiovisuels
+  location: Stuttgart Media University (Allemagne) Niveau 1
+  icon: glyphicon-education

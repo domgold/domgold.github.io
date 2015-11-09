@@ -1,0 +1,10 @@
+<p>
+  <i class="glyphicon glyphicon-chevron-right"></i> &nbsp; {{include.item.project-description}}
+</p>
+<p><i class="glyphicon glyphicon-hand-right"></i> &nbsp; {{include.item.mission-description}}</p>
+<p>
+  <small><i class="glyphicon glyphicon-wrench"></i> &nbsp; </small>
+  {%for p in include.item.products %}
+    <small><span class="label label-primary">{{p}}</span> &nbsp; </small>
+  {% endfor %}
+</p>

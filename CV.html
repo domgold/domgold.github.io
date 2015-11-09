@@ -35,41 +35,12 @@ permalink: /cv/
       </ul>
   </div>
   <div class="col-md-6">
-      <div class="section-header section-header-merged"><h2>Formations</h2></div>
-          <ul class="timeline">
-            {% for formation in site.data.formations %}
-            <li>
-              <div class="timeline-badge info"><i class="glyphicon {% if formation.icon %}{{ formation.icon}} {% else %} glyphicon-check{% endif %}"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">{{ formation.what}}</h4>
-                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> {{formation.when}}</small><small class="text-muted right"><i class="glyphicon glyphicon-map-marker"></i> {{formation.where}}</small></p>
-              </div>
-                </div>
-            </li>
-            {% endfor %}    
-          </ul>
+    <div class="section-header section-header-merged"><h2>Formations</h2></div>
+    {% include timeline.html items=site.data.formations color='info' %}
   </div>
   <div class="col-md-6">
-      <div class="section-header section-header-merged"><h2>Expériences significatives</h2></div>
-          <ul class="timeline">
-            {% for experience in site.data.experiences %}
-            <li>
-              <div class="timeline-badge warning"><i class="glyphicon {% if experience.icon %}{{ experience.icon}} {% else %} glyphicon-check{% endif %}"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">{%if experience.link %}
-                    <a href="{{experience.link}}">
-                        {%if experience.what %}{{ experience.what}} - {% endif%}</a>{% else %}{%if experience.what %}{{ experience.what}} - {% endif%}{% endif%}{{experience.employer}}</h4>
-                </div>
-                <p><strong><i class="glyphicon glyphicon-user"></i>&nbsp;{{experience.job}}&nbsp;</strong><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp; {{experience.when}} &nbsp; </small></p>
-                  <p><i class="glyphicon glyphicon-chevron-right"></i> &nbsp; {{experience.project-description}}</p>
-                  <p><i class="glyphicon glyphicon-hand-right"></i> &nbsp; {{experience.mission-description}}</p>
-                  <p><small><i class="glyphicon glyphicon-wrench"></i> &nbsp; </small>{%for p in experience.products %}<small><span class="label label-primary">{{p}}</span> &nbsp; </small>{% endfor %}</p>
-                </div>
-            </li>
-            {% endfor %}    
-          </ul>
+    <div class="section-header section-header-merged"><h2>Expériences significatives</h2></div>
+    {% include timeline.html items=site.data.experiences color='warning' subtitle_icon='glyphicon-user' body_include='cv/experience_body.html'%}
   </div>
     
 </div>
