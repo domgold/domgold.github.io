@@ -545,6 +545,29 @@ body {
         color: #f0ad4e!important;
     }
     dl p {
-        margin-bottom: 5px;
+        margin-bottom: 5px; 
+    }
+    .jumbotron.cv h2 {
+        font-size: 12px;
+    }
+    /*.jumbotron .col-md-8 {
+        border-left: 1px solid #5bc0de;
+    }*/
+    .jumbotron .col-md-4 > div {
+        border-right: 1px solid #5bc0de;
+    }
+    ul.timeline {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+    }
+    .timeline {
+        padding: 10px 0 0px;
+    }
+    
+    .warning-icon:before, .warning-icon:after {
+        color: #f0ad4e!important;
+    }
+    .col-float {
+        float: left;
     }
 }
