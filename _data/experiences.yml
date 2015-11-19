@@ -1,9 +1,9 @@
-- title: "Car*Base (Volkswagen Group)" 
+- title: "Car*Base" 
   date: 2015
   location: Polymont IT Services
   subtitle: Scrum Master 
-  project-description: Développement d'une application de gestion de SAV. 
-  mission-description: Mise en place de la méthode Scrum, Mise en place d'une architecture n-tiers et de service. 
+  project-description: R&D d'une application de gestion de SAV du groupe VW. 
+  mission-description: Mise en place de la méthode Scrum, gestion de l'équipe de 5 développeurs. 
   products: 
   - AngularJS
   - Jersey
@@ -23,18 +23,18 @@
   - RedHat Enterprise Linux
   - Spring Framework
   icon: glyphicon-lock
-- title: Chooser (Orange)
-  date: "2014 - 2015"
-  location: Polymont IT Services
-  subtitle: Architecte / Chef de projet 
-  project-description: Refonte d'une application de gestion d'accès régionalisé 
-  mission-description: Mise en place d'une architecture n-tiers, conception, développement, gestion de projet 
-  products: 
-  - Spring Web MVC
-  - Spring Data JPA
-  - Bootstrap / HTML5
-  - Apache CXF
-  icon: glyphicon-earphone
+#- title: Chooser (Orange)
+#  date: "2014 - 2015"
+#  location: Polymont IT Services
+#  subtitle: Architecte / Chef de projet 
+#  project-description: Refonte d'une application de gestion d'accès régionalisé 
+#  mission-description: Mise en place d'une architecture n-tiers, conception, développement, gestion de projet.
+#  products: 
+#  - Spring Web MVC
+#  - Spring Data JPA
+#  - Bootstrap / HTML5
+#  - Apache CXF
+#  icon: glyphicon-earphone
 - title: CLS View (CLS)
   link: https://play.google.com/store/apps/details?id=fr.cls.mobility.myclsdroiddata&hl=fr_FR
   date: "2013"
