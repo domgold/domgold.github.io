@@ -3,8 +3,8 @@
     <div class="row">
         <div class="col-md-4" ><div>
             <h2><i class="glyphicon glyphicon-user"></i>&nbsp;Dominik GOLDSCHMIDT</h2>
-            <p class=""><i class="warning-icon glyphicon glyphicon-earphone"></i>&nbsp;06 79 28 95 57</p>
-            <p class=""><i class="warning-icon glyphicon glyphicon-envelope"></i>&nbsp;dom.goldschmidt@gmail.com</p></div>
+            <p class=""><i class="warning-icon glyphicon glyphicon-earphone"></i>&nbsp;{{site.phone}}</p>
+            <p class=""><i class="warning-icon glyphicon glyphicon-envelope"></i>&nbsp;{{site.email}}</p></div>
         </div>
         <div class="col-md-8">
     {% endif %}
@@ -17,39 +17,28 @@
 </div>
 <div class="row cv">
     <div class="col-md-5">
-        <div class="section-header"><h2>{{include.dictionary.perso}}</h2></div>
+      <h2>{{include.dictionary.perso}}</h2>
       <ul>
       {% for perso in include.cv.perso %}     
           <li> {{perso}}</li>
       {% endfor %}
       </ul>
-      <div class="section-header"><h2>{{include.dictionary.competences_fonctionnelles}}</h2></div>
+      <h2>{{include.dictionary.competences_fonctionnelles}}</h2>
       <ul>
       {% for competence in include.competences.fonctions %}     
           <li> {{competence}}</li>
       {% endfor %}
       </ul>
-  <!--</div>
-  <div class="col-md-3">-->
-      
-  <!--</div>
-  <div class="col-md-7">-->
-      <div class="section-header"><h2>{{include.dictionary.competences_techniques}}</h2></div>
+      <h2>{{include.dictionary.competences_techniques}}</h2>
       <dl class="dl-horizontal medium">
       {% for competence in include.competences.techniques %}     
           <dt> <p>{{competence.type}}</p></dt>
           <dd><p>{{competence.items | join: ' - '}}</p></dd>
       {% endfor %}
       </dl>
-  <!--</div>
-</div>
-  <div class="row cv">
-  <div class="col-md-5">-->
-    <div class="section-header section-header-merged"><h2>{{include.dictionary.formations}}</h2></div>
-    {% include timeline.html items=include.formations color='info' %}
+      {% include timeline.html title=include.dictionary.formations items=include.formations color='info' %}
   </div>
   <div class="col-md-7">
-    <div class="section-header section-header-merged"><h2>{{include.dictionary.experiences}}</h2></div>
-    {% include timeline.html items=include.experiences color='warning' subtitle_icon='glyphicon-user' body_include='cv/experience_body.html'%}
+    {% include timeline.html title=include.dictionary.experiences items=include.experiences color='warning' subtitle_icon='glyphicon-user' body_include='cv/experience_body.html'%}
   </div>
-    </div>
+</div>
