@@ -2,8 +2,8 @@
   date: 2015
   location: Polymont IT Services
   subtitle: Scrum Master 
-  project-description: Develop a dealer management system for Volkswagen dealers. 
-  mission-description: Set up Scrum, team management (5 developers), development. 
+  project-description: Development of a dealer management system for Volkswagen automobile dealers. 
+  mission-description: Setting up Scrum, team management (5 developers), development. 
   products: 
   - AngularJS
   - Jersey
@@ -15,7 +15,7 @@
   date: "2013 - 2015"
   location: Polymont IT Services
   subtitle: "Technical Project Manager"
-  project-description: "Maintain and develop the SingleSignOn infrastructure (based on Siteminder) of Orange (France et Groupe)."
+  project-description: "Maintenance and development of the SingleSignOn infrastructure (based on Siteminder) of Orange (France and Groupe)."
   mission-description: "Team management, setting up continuous integration, development."
   products: 
   - CA Siteminder
@@ -40,7 +40,7 @@
   date: "2013"
   location: Polymont IT Services
   subtitle: Software Architect
-  project-description:  Mobile application for visualising satellite data on maps. 
+  project-description:  Development of a mobile application for visualising geo-tracking and satellite satellite data. 
   mission-description: Software architecture and development. 
   products: 
   - Android SDK
@@ -50,7 +50,7 @@
   date: "2012"
   location: Polymont IT Services
   subtitle: .NET engineer
-  project-description: Application to create, and pass psychological tests for futur pilots.
+  project-description: Development of a group of applications to manage psychological tests for airplane pilot candidates.
   mission-description: Software architecture, development, testing.
   products: 
   - .Net WPF
@@ -59,8 +59,8 @@
 - date: "2005 - 2012"
   title: Anagram Audiovisuel
   subtitle: Technical Project Manager
-  project-description: museography, multi-media, audiovisual
-  mission-description: Project management, multi-media development, development of e-learning tools (Airbus), camera operator for Airbus Training. 
+  project-description: Museography, multi-media, audiovisual.
+  mission-description: Project management, multi-media and e-learning tools development, camera operator for Airbus Training. 
   products: 
   - C#
   - PHP5

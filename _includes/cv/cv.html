@@ -8,7 +8,7 @@
         </div>
         <div class="col-md-8">
     {% endif %}
-            <h1><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;{{include.cv.title}}</h1>
+            <h1><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;{{include.cv.title | newline_to_br}}</h1>
             <p>{{include.cv.texte}}</p>
     {% if include.with_contact %}
         </div>
