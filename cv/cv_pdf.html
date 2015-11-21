@@ -1,58 +1,8 @@
 ---
 layout: cv
-title: CV
+title: CV (fr)
+exclude: true
 permalink: /cv/pdf/
 ---
 
-<div class="jumbotron info cv">
-    
-    <div class="row">
-        <div class="col-md-4" ><div>
-            <h2><i class="glyphicon glyphicon-user"></i>&nbsp;Dominik GOLDSCHMIDT</h2>
-            <p class=""><i class="warning-icon glyphicon glyphicon-earphone"></i>&nbsp;06 79 28 95 57</p>
-            <p class=""><i class="warning-icon glyphicon glyphicon-envelope"></i>&nbsp;dom.goldschmidt@gmail.com</p></div>
-        </div>
-        <div class="col-md-8">
-            <h1><i class="glyphicon glyphicon-chevron-right"></i>&nbsp;{{site.data.cv.title}}</h1>
-            <p>{{site.data.cv.texte}}</p>
-        </div>
-        
-    </div></div>
-<div class="row cv">
-    <div class="col-md-5">
-        <div class="section-header"><h2>Perso</h2></div>
-      <ul>
-      {% for perso in site.data.cv.perso %}     
-          <li> {{perso}}</li>
-      {% endfor %}
-      </ul>
-      <div class="section-header"><h2>Compétences fonctionnelles</h2></div>
-      <ul>
-      {% for competence in site.data.competences.fonctions %}     
-          <li> {{competence}}</li>
-      {% endfor %}
-      </ul>
-  <!--</div>
-  <div class="col-md-3">-->
-      
-  <!--</div>
-  <div class="col-md-7">-->
-      <div class="section-header"><h2>Compétences techniques</h2></div>
-      <dl class="dl-horizontal medium">
-      {% for competence in site.data.competences.techniques %}     
-          <dt> <p>{{competence.type}}</p></dt>
-          <dd><p>{{competence.items | join: ' - '}}</p></dd>
-      {% endfor %}
-      </dl>
-  <!--</div>
-</div>
-  <div class="row cv">
-  <div class="col-md-5">-->
-    <div class="section-header section-header-merged"><h2>Formations</h2></div>
-    {% include timeline.html items=site.data.formations color='info' %}
-  </div>
-  <div class="col-md-7">
-    <div class="section-header section-header-merged"><h2>Expériences significatives</h2></div>
-    {% include timeline.html items=site.data.experiences color='warning' subtitle_icon='glyphicon-user' body_include='cv/experience_body.html'%}
-  </div>
-    </div>
+{% include cv/cv.html cv=site.data.cv experiences=site.data.experiences competences=site.data.competences formations=site.data.formations dictionary=site.data.dictionary with_contact=true %}

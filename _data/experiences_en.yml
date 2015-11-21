@@ -2,8 +2,8 @@
   date: 2015
   location: Polymont IT Services
   subtitle: Scrum Master 
-  project-description: R&D d'une application de gestion de SAV du groupe VW. 
-  mission-description: Mise en place de la méthode Scrum, gestion de l'équipe de 5 développeurs. 
+  project-description: Develop a dealer management system for Volkswagen dealers. 
+  mission-description: Set up Scrum, team management (5 developers), development. 
   products: 
   - AngularJS
   - Jersey
@@ -14,9 +14,9 @@
 - title: "Archimède (Orange)"
   date: "2013 - 2015"
   location: Polymont IT Services
-  subtitle: "Chef de projet technique"
-  project-description: "Maintenance évolutive de l'infrastructure de sécurisation d'accès aux applications web d'Orange (France et Groupe)."
-  mission-description: "Gestion de l'équipe de 4 personnes, mise en place de l'intégration continue, planification, chiffrage, propositions techniques, développement Java"
+  subtitle: "Technical Project Manager"
+  project-description: "Maintain and develop the SingleSignOn infrastructure (based on Siteminder) of Orange (France et Groupe)."
+  mission-description: "Team management, setting up continuous integration, development."
   products: 
   - CA Siteminder
   - Java JEE
@@ -39,9 +39,9 @@
   link: https://play.google.com/store/apps/details?id=fr.cls.mobility.myclsdroiddata&hl=fr_FR
   date: "2013"
   location: Polymont IT Services
-  subtitle: Architecte logiciel
-  project-description: Application de cartographie pour tablettes Android 
-  mission-description: Architecture et développement, mise en place de concepts MVVM pour Android. 
+  subtitle: Software Architect
+  project-description:  Mobile application for visualising satellite data on maps. 
+  mission-description: Software architecture and development. 
   products: 
   - Android SDK
   - Java
@@ -49,18 +49,18 @@
 - title: TIF (ENAC)
   date: "2012"
   location: Polymont IT Services
-  subtitle: Ingénieur .NET
-  project-description: Application de création, de gestion et de passation de tests psychotechniques de futurs pilotes 
-  mission-description: Architecture, développement, tests 
+  subtitle: .NET engineer
+  project-description: Application to create, and pass psychological tests for futur pilots.
+  mission-description: Software architecture, development, testing.
   products: 
   - .Net WPF
   - .Net Forms
   icon: glyphicon-plane
 - date: "2005 - 2012"
   title: Anagram Audiovisuel
-  subtitle: Chef de projet technique
-  project-description: Muséographie, Multimédia et Audiovisuel 
-  mission-description: Gestion de projets technique, conception et développement multimédia (bornes interactives, tables multitouch, dispositifs interactifs multi-écran, outils e-learning), cadreur pour Airbus Training (Hamburg) 
+  subtitle: Technical Project Manager
+  project-description: museography, multi-media, audiovisual
+  mission-description: Project management, multi-media development, development of e-learning tools (Airbus), camera operator for Airbus Training. 
   products: 
   - C#
   - PHP5
